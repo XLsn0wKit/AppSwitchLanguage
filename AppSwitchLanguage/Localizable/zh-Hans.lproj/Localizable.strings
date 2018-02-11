@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  AppSwitchLanguage
+
+  Created by ginlong on 2018/2/11.
+  Copyright © 2018年 ginlong. All rights reserved.
+*/
+
+"languageKey" = "简体中文";
+"titleLabelKey" = "简体中文";
+"switchKey" = "切换语言";
+
+
+
+"cancel" = "取消";
+"search" = "搜索";
