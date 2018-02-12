@@ -13,10 +13,9 @@
 @implementation AppLocalizable
 
 + (instancetype)localizable {
-//  static AppLocalizable *manager = nil;
     static id manager = nil;
-    static dispatch_once_t oncePredicate;
-    dispatch_once(&oncePredicate, ^{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
         manager = [[self alloc] init];
     });
     return manager;

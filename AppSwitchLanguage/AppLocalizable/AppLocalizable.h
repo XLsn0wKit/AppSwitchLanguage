@@ -15,6 +15,7 @@
 
 - (NSString *)currentLanguage; //当前语言
 - (NSString *)languageFormat:(NSString*)language;
+
 - (void)setUserlanguage:(NSString *)language;//设置当前语言
 
 - (NSString *)localizedStringForKey:(NSString *)key value:(NSString *)value;
